@@ -1,0 +1,14 @@
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\bin\Debug\Reddit-Monitor.exe.config
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\bin\Debug\Reddit-Monitor.exe
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\bin\Debug\Reddit-Monitor.pdb
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\obj\Debug\Reddit-Monitor.csprojAssemblyReference.cache
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\obj\Debug\Reddit_Monitor.Form1.resources
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\obj\Debug\Reddit_Monitor.Properties.Resources.resources
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\obj\Debug\Reddit-Monitor.csproj.GenerateResource.cache
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\obj\Debug\Reddit-Monitor.csproj.CoreCompileInputs.cache
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\obj\Debug\Reddit-Monitor.csproj.CopyComplete
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\obj\Debug\Reddit-Monitor.exe
+C:\Users\Ben\source\repos\Reddit-Monitor\Reddit-Monitor\obj\Debug\Reddit-Monitor.pdb

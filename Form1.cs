@@ -19,6 +19,8 @@ namespace Reddit_Monitor
         public Form1()
         {
             InitializeComponent();
+            label1.Text = "";
+            label2.Text = "";
             timer1.Start();
         }
 
@@ -30,12 +32,21 @@ namespace Reddit_Monitor
 
             var newestPost = doc.DocumentNode.SelectSingleNode("/html/body/div[4]/div/div[1]");
             string imageUrl = newestPost.GetAttributeValue("data-url", "").ToString();
-            textBox1.Text = imageUrl;
+            string subreddit = newestPost.GetAttributeValue("data-subreddit", "").ToString();
+
+            var title = doc.DocumentNode.SelectSingleNode("/html/body/div[4]/div/div[1]/div[2]/div[1]/p[1]/a");
+            label1.Text = title.InnerText;
+
+            label2.Text = "/r/" + subreddit;
+
+            //textBox1.Text = imageUrl;
 
             WebClient wc = new WebClient();
             byte[] bytes = wc.DownloadData(imageUrl);
             MemoryStream ms = new MemoryStream(bytes);
             System.Drawing.Image img = System.Drawing.Image.FromStream(ms);
+
+
 
             pictureBox1.Image = img;
         }
